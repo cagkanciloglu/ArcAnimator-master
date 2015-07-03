@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#fff">
+
+    <io.codetail.widget.RevealFrameLayout
+        android:id="@+id/transition_blue_pair"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:visibility="invisible">
+
+        <ImageButton
+            android:id="@+id/close_red_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/circle_test_button_indigo"
+            />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/circle_test_button_indigo"
+            />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/circle_test_button_indigo"
+            />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/circle_test_button_indigo"
+            />
+    </io.codetail.widget.RevealFrameLayout>
+
+    <ImageButton
+        android:id="@+id/transition_blue"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/circle_test_button_black"
+        android:src="@drawable/abc_ic_menu_share_mtrl_alpha"/>
+
+    <ImageButton
+        android:id="@+id/transition_red"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/circle_test_button_red"
+        android:visibility="invisible"
+        />
+</FrameLayout>
